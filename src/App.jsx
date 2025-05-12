@@ -19,7 +19,7 @@ function App() {
   const [texto, setTexto] = useState('');
 
   useEffect(() => {
-    const mensagem = "Te conhecer foi a melhor coisa que aconteceu na minha vida. A cada dia, eu te amo mais!";
+    const mensagem = "Te conhecer foi a melhor coisa que aconteceu na minha vida. A cada dia, eu te amo mais! Queria agradecer por todos esses momentos juntos, que venha muitos mais, e que apesar de qualquer conflito ou briguinha, eu te amo muito e você foi a melhor coisa que já aconteceu na minha vida.";
     let i = 0;
     const intervalo = setInterval(() => {
       setTexto(mensagem.slice(0, i)); 
