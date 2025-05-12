@@ -3,7 +3,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  display: block; /* Alterado de flex para block */
+  display: block;
 }
 
 #root {
@@ -24,28 +24,53 @@ body {
   gap: 2rem;
 }
 
-/* Header */
+/* Header melhorado */
 header {
   width: 100%;
-  padding: 2rem;
-  background: linear-gradient(135deg, #ffd1e8, #ffd1dc);
-  border-radius: 20px;
-  margin-bottom: 2rem;
-  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.3);
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #ffe0ec, #ffd6e8, #ffcce1);
+  border-radius: 30px;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 8px 20px rgba(255, 182, 193, 0.4);
   animation: fadeIn 1.5s ease-out;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+header::before,
+header::after {
+  content: '💗';
+  position: absolute;
+  font-size: 3rem;
+  opacity: 0.2;
+  animation: float 6s ease-in-out infinite;
+}
+header::before {
+  top: 10px;
+  left: 20px;
+}
+header::after {
+  bottom: 10px;
+  right: 20px;
 }
 
 h1 {
   font-family: 'Dancing Script', cursive;
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   color: #d6336c;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
+  text-shadow: 1px 1px 3px rgba(255, 192, 203, 0.4);
+  animation: pulse 3s ease-in-out infinite;
 }
 
-.subtitle {
-  font-size: 1.2rem;
+header p {
+  font-size: 1.3rem;
   color: #7c3f58;
+  font-style: italic;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 /* Seções */
@@ -128,6 +153,30 @@ h2 {
   }
 }
 
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 /* Responsivo */
 @media (max-width: 768px) {
   .fotos {
@@ -146,5 +195,9 @@ h2 {
 
   h2 {
     font-size: 1.6rem;
+  }
+
+  header p {
+    font-size: 1.1rem;
   }
 }
