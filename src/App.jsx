@@ -1,16 +1,17 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 
+// Ajustando o array de imagens para usar import.meta.url
 const imagens = [
-  '/fotos/foto1.jpg',
-  '/fotos/foto2.jpg',
-  '/fotos/foto3.jpg',
-  '/fotos/foto4.jpg',
-  '/fotos/foto5.jpg',
-  '/fotos/foto6.jpg',
-  '/fotos/foto7.jpg',
-  '/fotos/foto8.jpg',
-  '/fotos/foto9.jpg',
+  new URL('./fotos/foto1.jpg', import.meta.url).href,
+  new URL('./fotos/foto2.jpg', import.meta.url).href,
+  new URL('./fotos/foto3.jpg', import.meta.url).href,
+  new URL('./fotos/foto4.jpg', import.meta.url).href,
+  new URL('./fotos/foto5.jpg', import.meta.url).href,
+  new URL('./fotos/foto6.jpg', import.meta.url).href,
+  new URL('./fotos/foto7.jpg', import.meta.url).href,
+  new URL('./fotos/foto8.jpg', import.meta.url).href,
+  new URL('./fotos/foto9.jpg', import.meta.url).href,
 ];
 
 function App() {
