@@ -2,15 +2,15 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 const imagens = [
-  'foto1.jpg',
-  'foto2.jpg',
-  'foto3.jpg',
-  'foto4.jpg',
-  'foto5.jpg',
-  'foto6.jpg',
-  'foto7.jpg',
-  'foto8.jpg',
-  'foto9.jpg',
+  `${import.meta.env.BASE_URL}foto1.png`,
+  `${import.meta.env.BASE_URL}foto2.png`,
+  `${import.meta.env.BASE_URL}foto3.png`,
+  `${import.meta.env.BASE_URL}foto4.png`,
+  `${import.meta.env.BASE_URL}foto5.png`,
+  `${import.meta.env.BASE_URL}foto6.png`,
+  `${import.meta.env.BASE_URL}foto7.png`,
+  `${import.meta.env.BASE_URL}foto8.png`,
+  `${import.meta.env.BASE_URL}foto9.png`,
 ];
 
 
