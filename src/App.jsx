@@ -2,15 +2,15 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 const imagens = [
-  `${import.meta.env.BASE_URL}foto1.png`,
-  `${import.meta.env.BASE_URL}foto2.png`,
-  `${import.meta.env.BASE_URL}foto3.png`,
-  `${import.meta.env.BASE_URL}foto4.png`,
-  `${import.meta.env.BASE_URL}foto5.png`,
-  `${import.meta.env.BASE_URL}foto6.png`,
-  `${import.meta.env.BASE_URL}foto7.png`,
-  `${import.meta.env.BASE_URL}foto8.png`,
-  `${import.meta.env.BASE_URL}foto9.png`,
+ 'https://pedroazevedol.github.io/mesversario/foto1.jpg',
+ 'https://pedroazevedol.github.io/mesversario/foto2.jpg',
+ 'https://pedroazevedol.github.io/mesversario/foto3.jpg',
+ 'https://pedroazevedol.github.io/mesversario/foto4.jpg',
+ 'https://pedroazevedol.github.io/mesversario/foto5.jpg',
+ 'https://pedroazevedol.github.io/mesversario/foto6.jpg',
+ 'https://pedroazevedol.github.io/mesversario/foto7.jpg',
+ 'https://pedroazevedol.github.io/mesversario/foto8.jpg',
+ 'https://pedroazevedol.github.io/mesversario/foto9.jpg',
 ];
 
 
