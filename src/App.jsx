@@ -3,15 +3,15 @@ import './App.css';
 
 // Ajustando o array de imagens para usar import.meta.url
 const imagens = [
-  new URL('./fotos/foto1.jpg', import.meta.url).href,
-  new URL('./fotos/foto2.jpg', import.meta.url).href,
-  new URL('./fotos/foto3.jpg', import.meta.url).href,
-  new URL('./fotos/foto4.jpg', import.meta.url).href,
-  new URL('./fotos/foto5.jpg', import.meta.url).href,
-  new URL('./fotos/foto6.jpg', import.meta.url).href,
-  new URL('./fotos/foto7.jpg', import.meta.url).href,
-  new URL('./fotos/foto8.jpg', import.meta.url).href,
-  new URL('./fotos/foto9.jpg', import.meta.url).href,
+  new URL('./foto1.jpg', import.meta.url).href,
+  new URL('./foto2.jpg', import.meta.url).href,
+  new URL('./foto3.jpg', import.meta.url).href,
+  new URL('./foto4.jpg', import.meta.url).href,
+  new URL('./foto5.jpg', import.meta.url).href,
+  new URL('./foto6.jpg', import.meta.url).href,
+  new URL('./foto7.jpg', import.meta.url).href,
+  new URL('./foto8.jpg', import.meta.url).href,
+  new URL('./foto9.jpg', import.meta.url).href,
 ];
 
 function App() {
