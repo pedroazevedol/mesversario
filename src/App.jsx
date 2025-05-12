@@ -2,15 +2,15 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 const imagens = [
-  '/fotos/foto1.jpg',
-  '/fotos/foto2.jpg',
-  '/fotos/foto3.jpg',
-  '/fotos/foto4.jpg',
-  '/fotos/foto5.jpg',
-  '/fotos/foto6.jpg',
-  '/fotos/foto7.jpg',
-  '/fotos/foto8.jpg',
-  '/fotos/foto9.jpg',
+  'mesversario/fotos/foto1.jpg',
+  'mesversario/fotos/foto2.jpg',
+  'mesversario/fotos/foto3.jpg',
+  'mesversario/fotos/foto4.jpg',
+  'mesversario/fotos/foto5.jpg',
+  'mesversario/fotos/foto6.jpg',
+  'mesversario/fotos/foto7.jpg',
+  'mesversario/fotos/foto8.jpg',
+  'mesversario/fotos/foto9.jpg',
 ];
 
 function App() {
